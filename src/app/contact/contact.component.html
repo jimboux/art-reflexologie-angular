@@ -1,1 +1,63 @@
-<p>contact works!</p>
+<div class="contactbody">
+  <div class="contactcontent">
+    <h2 class="h2-form">Contactez moi</h2>
+    <p class="soustitrecontact">
+      Merci de compléter ce formulaire pour prendre rendez vous. Je reste
+      disponible pour répondre à vos questions.
+    </p>
+    <section id="maincomponent">
+      <section id="form">
+        <form
+          action="https://formsubmit.co/jimmy.cuogo@gmail.com"
+          method="POST"
+          id="formulaire"
+        >
+          <label for="nom">Votre Nom *</label><br />
+          <input type="text" id="nom" name="nom" value="" required /><br />
+          <label for="email">Email *</label><br />
+          <input type="email" id="email" name="email" value="" required /><br />
+          <label for="sujet">Sujet</label><br />
+          <input type="text" id="sujet" name="sujet" value="" /><br />
+          <label for="message">Votre message</label><br />
+          <textarea id="message" name="message"></textarea><br />
+          <input class="submit1" type="submit" value="Envoyer" />
+        </form>
+      </section>
+      <section id="maintxt">
+        <div class="coordo">
+          <div class="coordo1">
+            <p>
+              <i class="fa-regular fa-envelope"></i>
+              cmoreira.lart.reflexologie@gmail.com
+            </p>
+          </div>
+          <div class="coordo2">
+            <p><i class="fa-solid fa-phone"></i> 0650923194</p>
+          </div>
+        </div>
+        <div class="maps">
+          <div class="map1">
+            <div>
+              <p><i class="fa-solid fa-location-dot"></i> Villeneuve | Cher</p>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2719.5926042629176!2d2.220811714770804!3d47.02860123572046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47faec0319801b25%3A0xcb74a5bc6a6e1b68!2s5%20Rte%20de%20Saint-Florent%2C%2018400%20Villeneuve-sur-Cher!5e0!3m2!1sfr!2sfr!4v1676737661211!5m2!1sfr!2sfr"
+              width="70%"
+              height="70%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </section>
+    <p class="asterisque"
+      >*En cliquant sur "Envoyer", j'accepte expressément les <span [routerLink]="['/cgu']"> Conditions
+      générales d'utilisation</span> de Céline Moreira et je comprends que les
+      informations ci-dessus seront utilisées conformément à la <span [routerLink]="['/politique-de-confidentialite']"> Politique de
+      confidentialité</span>
+  </p>
+  </div>
+</div>

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  showSubMenu = false;
+  
+  showMenu(){
+    this.showSubMenu = !this.showSubMenu;
+    console.log(this.showSubMenu)
+  }
 }
