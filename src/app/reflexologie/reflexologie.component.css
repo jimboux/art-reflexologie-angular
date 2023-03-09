@@ -10,13 +10,21 @@ body{
   margin-left: 10vh;
   width: 45%;
 }
-p {
-  margin-bottom: 10vh;;
-}
 
 .incapic {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.img-bebe {
+  width: 400px;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.img-main, .img-pied {
+  width: 400px;
+  border-radius: 50%;
 }

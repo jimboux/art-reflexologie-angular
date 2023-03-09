@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { Page404Component } from './page404/page404.component';
 import { CguComponent } from './cgu/cgu.component';
 import { PolitiqueConfidentialiteComponent } from './politique-confidentialite/politique-confidentialite.component';
+import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PolitiqueConfidentialiteComponent } from './politique-confidentialite/p
     ContactComponent,
     Page404Component,
     CguComponent,
-    PolitiqueConfidentialiteComponent
+    PolitiqueConfidentialiteComponent,
+    MentionsLegalesComponent
   ],
   imports: [
     BrowserModule,

@@ -13,7 +13,7 @@
     <li (mouseenter)="showMenu()" (mouseleave)="showMenu()"[routerLink]="['/reflexologie']">
       La réflexologie
       <ul class="sous-menu"  *ngIf="showSubMenu">
-        <li><a href="#">Sous-menu 1</a></li>
+        <li><a routerLink="['/reflexologie']" fragment="milieu">milieu</a></li>
         <li><a href="#">Sous-menu 2</a></li>
         <li><a href="#">Sous-menu 3</a></li>
       </ul>
