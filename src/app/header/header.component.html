@@ -1,0 +1,25 @@
+<div class="header-container">
+  <div class="photo-container">
+    <img src="./assets/logo/logowotxt.png" alt="logo du site" />
+    <div class="text-header">
+      <p class="nom">Céline Moreira</p>
+      <p class="p-header-left">L'art de la réflexologie plantaire</p>
+      <p class="p-header-left">Practicienne en réflexologie vectorielle,</p>
+      <p class="p-header-left">certifiée palmaire & plantaire</p>
+    </div>
+  </div>
+  <ul class="list">
+    <li [routerLink]="['']">Accueil</li>
+    <li (mouseenter)="showMenu()" (mouseleave)="showMenu()"[routerLink]="['/reflexologie']">
+      La réflexologie
+      <ul class="sous-menu"  *ngIf="showSubMenu">
+        <li><a routerLink="['/reflexologie']" fragment="milieu">milieu</a></li>
+        <li><a href="#">Sous-menu 2</a></li>
+        <li><a href="#">Sous-menu 3</a></li>
+      </ul>
+    </li>
+    <li [routerLink]="['/apropos']">A propos</li>
+    <li [routerLink]="['/seances']">Séances</li>
+    <li [routerLink]="['/contact']">Contact</li>
+  </ul>
+</div>

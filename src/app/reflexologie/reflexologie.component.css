@@ -1,0 +1,30 @@
+body{
+  margin: 0 10% 0 10%;
+}
+.div-text-image {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.div-text-image img {
+  margin-left: 10vh;
+  width: 45%;
+}
+
+.incapic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.img-bebe {
+  width: 400px;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.img-main, .img-pied {
+  width: 300px;
+  border-radius: 50%;
+}

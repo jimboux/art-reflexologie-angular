@@ -1,0 +1,39 @@
+:root {
+  --green: #2DA080;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: default;
+
+}
+h1{
+  font-size: 5rem;
+  font-family: "Great Vibes";
+
+}
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3.5rem;
+  margin: 5vh 0 10vh 0;
+  text-align: center;
+
+}
+h3{
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 5vh 0 5vh 0;
+}
+h4{
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
