@@ -50,3 +50,10 @@ color: black;
 .p-header-left {
   font-size: 0.8rem;
 }
+
+
+@media screen and (max-width: 500px) {
+    .list{
+      display: none;
+    }
+}

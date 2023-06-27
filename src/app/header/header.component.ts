@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   showSubMenu = false;
+  menuburger = false
+
+
+
+  reverseburgervalue(){
+ this.menuburger = !this.menuburger
+  }
   
   showMenu(){
     this.showSubMenu = !this.showSubMenu;
